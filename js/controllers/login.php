@@ -6,7 +6,7 @@
         <?php echo loadPlugins(); ?>
         <title>Login</title>
     </head>
-    <body class="login-content" ng-app="viviktaConsole" ng-controller="LoginController">
+    <body class="login-content" ng-app="app_name" ng-controller="LoginController">
         <div class="lc-block toggled" id="l-login">
             <img src="img/vivikta_logo.png" style="width: 70px;height: 70px;">
             <h3>app_name</h3>
