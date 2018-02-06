@@ -7,7 +7,7 @@
         <title>app_name | Projects</title>
         <?php echo loadPlugins()?>
     </head>
-    <body ng-app="viviktaConsole" class="ng-cloak" ng-controller="ProjectController" ng-init="listAllConfiguredApplication(0,'')">
+    <body ng-app="app_name" class="ng-cloak" ng-controller="ProjectController" ng-init="listAllConfiguredApplication(0,'')">
         <header id="header" class="ng-cloak">
             <ul class="header-inner ng-cloak">
                 <li id="menu-trigger" data-trigger="#sidebar">
