@@ -7,7 +7,7 @@
         <title>app_name | Build</title>
         <?php echo loadPlugins()?>
     </head>
-    <body ng-app="viviktaConsole" ng-controller ="ExecutionController" ng-init="listAllExecutionHistory(0,'')">
+    <body ng-app="app_name" ng-controller ="ExecutionController" ng-init="listAllExecutionHistory(0,'')">
         <input type="hidden" id="appId" ng-model="appId" value="<?php echo $_GET['appId'] ?>">
         <header id="header" class="ng-cloak">
             <ul class="header-inner ng-cloak">
