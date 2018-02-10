@@ -9,7 +9,7 @@ program_path="$6"
 git_pull_directory="$7"
 build_id="$8"
 
-keystore_name="vivikta"
+keystore_name="your_keystore_name"
 
 git_project_directory="$git_pull_directory/$app_name"
 
@@ -48,7 +48,7 @@ buildandroid()
 	done			
 	cd $program_path/
 	echo "before jarsigner"
-	jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore "$keystore_name".keystore "$app_name"_"$new_version"_unsigned.apk -storepass vivikta alias_name >> test.txt
+	jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore "$keystore_name".keystore "$app_name"_"$new_version"_unsigned.apk -storepass key_password alias_name >> test.txt
 	retval=$?	
 	echo "after jarsigner" 	
 	if [ $retval -ne 0 ]
