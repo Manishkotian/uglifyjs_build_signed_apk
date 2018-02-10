@@ -8,7 +8,7 @@ app_name="$5"
 program_path="$6"
 git_pull_directory="$7"
 
-keystore_name="vivikta"
+keystore_name="your_keystore_name"
 
 git_project_directory="$git_pull_directory/$app_name"
 
