@@ -62,14 +62,14 @@ public class Scriptapk{
                                         System.out.println(a);
                                         if ( a == 1 )
                                              {
-                                                 serverbaseurl = "https://console.vivikta.in/appBuild/updateStatus";
+                                                 serverbaseurl = "https://domain_name/appBuild/updateStatus";
                                                  urlParameters = "buildId="+args[7]+"&status=1&string=git clone authentication failed(Access denied)";
                                                  writer.write("git clone authentication failed(Access denied)");
                                                  writer.newLine();
                                              }
                                              else if ( a == 2 )
                                              {
-                                                 serverbaseurl = "https://console.vivikta.in/appBuild/updateStatus";
+                                                 serverbaseurl = "https://cdomain_name/appBuild/updateStatus";
                                                  urlParameters = "buildId="+args[7]+"&status=1&string=problem with js filename";
                                                  writer.write("problem with js filename");
                                                  writer.newLine();
@@ -140,14 +140,14 @@ public class Scriptapk{
                                              int a1 = Integer.parseInt(singleWord1);
                                              if ( a1 == 0 )
                                              {
-                                                 serverbaseurl = "https://console.vivikta.in/appBuild/updateStatus";
+                                                 serverbaseurl = "https://domain_name/appBuild/updateStatus";
                                                  urlParameters = "buildId="+args[7]+"&status=0&string=apk file build successfully";
                                                  writer.write("apk file build successfully");
                                                  writer.newLine();
                                              }
                                              else if ( a1 == 3 )
                                              {
-                                                 serverbaseurl = "https://console.vivikta.in/appBuild/updateStatus";
+                                                 serverbaseurl = "https://domain_name/appBuild/updateStatus";
                                                  urlParameters = "buildId="+args[7]+"&status=1&string=keystore not found";
                                                  writer.write("keystore not found");
                                                  writer.newLine();
@@ -155,7 +155,7 @@ public class Scriptapk{
                                              }
                                              else if ( a1 == 4 )
                                              {
-                                                 serverbaseurl = "https://console.vivikta.in/appBuild/updateStatus";
+                                                 serverbaseurl = "https://domain_name/appBuild/updateStatus";
                                                  urlParameters = "buildId="+args[7]+"&status=1&string=zipalign command failed";
                                                  writer.write("zipalign command failed");
                                                  writer.newLine();
@@ -181,7 +181,7 @@ public class Scriptapk{
                             }
                             reader4.close();
                             p3.destroy();
-                            serverbaseurl = "https://console.vivikta.in/appBuild/updateStatus";
+                            serverbaseurl = "https://domain_name/appBuild/updateStatus";
                             urlParameters = "buildId="+args[7]+"&status=1&string=ionic build android failed";
                             writer.write("ionic build android failed");
                             writer.newLine();
