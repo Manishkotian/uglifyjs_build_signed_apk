@@ -40,7 +40,7 @@
 	}
 
     function loadFooter(){
-        return "Copyright &copy; 2017 Vivikta Technologies Pvt Ltd.";
+        return "Copyright &copy; ";
     }
 
 	function loadNotificationBar()
